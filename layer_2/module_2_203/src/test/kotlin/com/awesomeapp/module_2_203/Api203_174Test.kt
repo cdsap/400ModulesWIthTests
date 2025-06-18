@@ -1,0 +1,32 @@
+package com.awesomeapp.module_2_203
+
+import org.junit.Test
+import org.junit.Before
+import org.junit.runner.RunWith
+import org.junit.runners.JUnit4
+import org.junit.Rule
+import kotlinx.coroutines.test.runTest
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import org.junit.Assert.*
+import kotlin.test.assertTrue
+import kotlin.test.assertNotNull
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import com.awesomeapp.module_2_203.*
+
+
+@OptIn(ExperimentalCoroutinesApi::class)
+class Api203_174Test {
+        private lateinit var api: Api203_174
+
+    @Before
+    fun setup() {
+        api = Api203_174()
+    }
+
+    @Test
+    fun `test fetchData returns data`() = runTest {
+        val result = api.fetchData()
+        assertNotNull(result)
+    }
+}

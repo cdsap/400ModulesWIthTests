@@ -1,0 +1,32 @@
+plugins {
+    id("awesome.kotlin.plugin")
+}
+
+dependencies {
+    implementation(project(":layer_0:module_0_40"))
+    implementation(project(":layer_0:module_0_64"))
+    implementation(project(":layer_0:module_0_59"))
+    implementation(project(":layer_0:module_0_17"))
+    implementation(project(":layer_0:module_0_65"))
+    implementation(project(":layer_0:module_0_35"))
+    implementation(project(":layer_0:module_0_19"))
+    implementation(project(":layer_0:module_0_77"))
+    implementation(project(":layer_0:module_0_71"))
+    implementation(project(":layer_0:module_0_48"))
+    implementation(project(":layer_0:module_0_63"))
+    implementation(project(":layer_0:module_0_58"))
+    implementation(project(":layer_0:module_0_49"))
+    implementation(project(":layer_0:module_0_38"))
+    implementation(project(":layer_0:module_0_73"))
+    implementation(project(":layer_0:module_0_23"))
+    implementation(project(":layer_0:module_0_42"))
+    implementation(project(":layer_0:module_0_2"))
+    implementation(project(":layer_0:module_0_29"))
+    implementation(project(":layer_0:module_0_43"))
+    implementation(project(":layer_0:module_0_32"))
+    implementation(project(":layer_0:module_0_56"))
+    implementation(project(":layer_0:module_0_12"))
+    implementation(project(":layer_0:module_0_14"))
+    implementation(project(":layer_0:module_0_39"))
+    implementation(project(":layer_0:module_0_44"))
+}

@@ -1,0 +1,10 @@
+package com.awesomeapp.module_0_18
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+class Api18_21 {
+    suspend fun fetchData(): String = withContext(Dispatchers.IO) {
+        "Data from Api18_21 API"
+    }
+}

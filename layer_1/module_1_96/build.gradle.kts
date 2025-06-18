@@ -1,0 +1,30 @@
+plugins {
+    id("awesome.kotlin.plugin")
+}
+
+dependencies {
+    implementation(project(":layer_0:module_0_53"))
+    implementation(project(":layer_0:module_0_63"))
+    implementation(project(":layer_0:module_0_24"))
+    implementation(project(":layer_0:module_0_7"))
+    implementation(project(":layer_0:module_0_48"))
+    implementation(project(":layer_0:module_0_56"))
+    implementation(project(":layer_0:module_0_58"))
+    implementation(project(":layer_0:module_0_45"))
+    implementation(project(":layer_0:module_0_60"))
+    implementation(project(":layer_0:module_0_20"))
+    implementation(project(":layer_0:module_0_25"))
+    implementation(project(":layer_0:module_0_75"))
+    implementation(project(":layer_0:module_0_34"))
+    implementation(project(":layer_0:module_0_46"))
+    implementation(project(":layer_0:module_0_69"))
+    implementation(project(":layer_0:module_0_18"))
+    implementation(project(":layer_0:module_0_59"))
+    implementation(project(":layer_0:module_0_10"))
+    implementation(project(":layer_0:module_0_71"))
+    implementation(project(":layer_0:module_0_3"))
+    implementation(project(":layer_0:module_0_35"))
+    implementation(project(":layer_0:module_0_30"))
+    implementation(project(":layer_0:module_0_49"))
+    implementation(project(":layer_0:module_0_47"))
+}

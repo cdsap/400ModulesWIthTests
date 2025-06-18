@@ -1,0 +1,33 @@
+name: Build
+
+on:
+    push:
+        branches: [ main]
+
+
+jobs:
+    build:
+        strategy:
+            matrix:
+                java: [23]
+
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Set up JDK ${{ matrix.java }}
+              uses: actions/setup-java@v3
+              with:
+                  distribution: 'temurin'
+                  java-version:  ${{ matrix.java }}
+            - name: Start Build Process Watcher
+              uses: cdsap/build-process-watcher@adding-heap-in-svg
+              with:
+                interval: 5
+            - name: Execute assemble
+              run: |
+                  ./gradlew test
+              env:
+                DEVELOCITY_ACCESS_KEY: ${{ secrets.DV_ACCESS_KEY }}
+

@@ -1,0 +1,7 @@
+package com.awesomeapp.module_4_350
+
+data class Model350_17(
+    val id: String = "Model350_17-1750198992792",
+    val name: String = "Model for Model350_17",
+    val description: String = "Description for Model350_17"
+)

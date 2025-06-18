@@ -1,0 +1,32 @@
+plugins {
+    id("awesome.kotlin.plugin")
+}
+
+dependencies {
+    implementation(project(":layer_3:module_3_296"))
+    implementation(project(":layer_3:module_3_245"))
+    implementation(project(":layer_3:module_3_269"))
+    implementation(project(":layer_3:module_3_313"))
+    implementation(project(":layer_3:module_3_297"))
+    implementation(project(":layer_3:module_3_289"))
+    implementation(project(":layer_3:module_3_310"))
+    implementation(project(":layer_3:module_3_251"))
+    implementation(project(":layer_3:module_3_304"))
+    implementation(project(":layer_3:module_3_315"))
+    implementation(project(":layer_3:module_3_276"))
+    implementation(project(":layer_3:module_3_320"))
+    implementation(project(":layer_3:module_3_302"))
+    implementation(project(":layer_3:module_3_253"))
+    implementation(project(":layer_3:module_3_283"))
+    implementation(project(":layer_3:module_3_307"))
+    implementation(project(":layer_3:module_3_282"))
+    implementation(project(":layer_3:module_3_249"))
+    implementation(project(":layer_3:module_3_284"))
+    implementation(project(":layer_3:module_3_248"))
+    implementation(project(":layer_3:module_3_244"))
+    implementation(project(":layer_3:module_3_243"))
+    implementation(project(":layer_3:module_3_261"))
+    implementation(project(":layer_3:module_3_279"))
+    implementation(project(":layer_3:module_3_258"))
+    implementation(project(":layer_3:module_3_250"))
+}
