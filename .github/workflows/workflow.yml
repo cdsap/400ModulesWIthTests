@@ -24,7 +24,7 @@ jobs:
             - name: Start Build Process Watcher
               uses: cdsap/build-process-watcher@adding-heap-in-svg
               with:
-                interval: 5
+                interval: 1
             - name: Execute assemble
               run: |
                   ./gradlew test
